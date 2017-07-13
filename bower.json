@@ -1,0 +1,34 @@
+{
+	"name": "openfpt-ng-tts",
+	"version": "0.0.5",
+	"authors": [
+		"Quan Nguyen <ducminhquan@gmail.com>"
+	],
+	"description": "AngularJS service for Vietnamese TTS (Text-to-speech) of OpenFPT",
+	"keywords": [
+		"fpt",
+		"tts",
+		"openfpt",
+		"vietnamese",
+		"quanndm",
+		"ducminhquan"
+	],
+	"license": "MIT",
+	"ignore": [
+		"**/.*",
+		"node_modules",
+		"bower_components",
+		"test",
+		"tests"
+	],
+	"dependencies": {
+		"angular": "^1.5.0"
+	},
+	"main": "./tts.js",
+	"devDependencies": {
+		"angular": "^1.5.0",
+		"angular-sanitize": "^1.5.0",
+		"angular-route": "^1.5.0",
+		"angular-touch": "^1.5.0"
+	}
+}
